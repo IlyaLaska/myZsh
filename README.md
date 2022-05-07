@@ -5,8 +5,8 @@
 - define custom aliases in custom-alias
 
 ## TODO
-[-] script/alias to auto-update plugins
-[-] fzf integration
-[-] zoxide integration
-[-] add completions
+- [ ] script/alias to auto-update plugins
+- [ ] fzf integration
+- [ ] zoxide integration
+- [ ] add completions
 
