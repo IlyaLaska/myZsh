@@ -9,10 +9,10 @@ alias wttr='curl wttr.in/Kyiv'
 
 # EDIT COMMON CONFIGS
 alias brc="$EDITOR ~/.bashrc"
-alias zrc="$EDITOR ~/.zshrc"
+alias zrc="$EDITOR $ZDOTDIR/.zshrc"
 alias vrc="$EDITOR ~/.vim/.vimrc"
 alias oal="$EDITOR ~/.oh-my-zsh/custom/alias.zsh"
-alias szrc='source ~/.zshrc'
+alias szrc="source $ZDOTDIR/.zshrc"
 
 
 # Colorize grep output (good for log files)

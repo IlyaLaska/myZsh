@@ -93,11 +93,6 @@ else
   bindkey -M vicmd "^[3;5~" delete-char
 fi
 
-# [Ctrl-Delete] - delete whole forward-word
-bindkey -M emacs '^[[3;5~' kill-word
-bindkey -M viins '^[[3;5~' kill-word
-bindkey -M vicmd '^[[3;5~' kill-word
-
 # [Ctrl-RightArrow] - move forward one word
 bindkey -M emacs '^[[1;5C' forward-word
 bindkey -M viins '^[[1;5C' forward-word
@@ -125,6 +120,23 @@ bindkey "^k" up-line-or-beginning-search      # History search up
 bindkey "^j" down-line-or-beginning-search    # History search down
 bindkey -r "^u"                               # Unbind C+u
 bindkey -r "^d"                               # Unbind C+d
+
+
+### TODO come up with standard key codes instead of the weird ones
+bindkey "\x1bb" backward-word                 # Alt-left to move left 1 word
+bindkey "\x1bf" forward-word                  # Alt-right to move right 1 word
+bindkey "\x1bd" backward-kill-word            # Alt-Backspace to del word
+bindkey "^[[3;3~" kill-word                   # Alt-Delete to del forward-word
+bindkey "^@33[27;6;8~" backward-kill-word     # Ctrl-Backspace to del word
+bindkey '^[[3;5~' kill-word                   # Ctrl-Delete to del forward-word
+
+bindkey '\x15' backward-kill-line             # Super-Back to kill to beginning
+bindkey '^@033[27;6;9~' kill-line              # Super-Del to kill to end
+
+
+# Apps
+bindkey -s '^n' 'nvim ^M'
+bindkey -s '^o' 'lf ^M'
 
 
 # Extra ideas
