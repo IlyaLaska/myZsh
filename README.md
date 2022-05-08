@@ -9,4 +9,5 @@
 - [ ] fzf integration
 - [ ] zoxide integration
 - [ ] add completions
+- [ ] figure out unique key codes for all button combos
 
