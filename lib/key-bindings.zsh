@@ -135,7 +135,10 @@ bindkey '^@033[27;6;9~' kill-line              # Super-Del to kill to end
 
 
 # Apps
-bindkey -s '^n' 'nvim ^M'
+bindkey -M emacs -s '^n' 'nvim ^M'
+bindkey -M viins -s '^n' 'nvim ^M'
+bindkey -M vicmd -s '^n' 'nvim ^M'
+#bindkey -s '^n' 'nvim ^M'
 bindkey -s '^o' 'lf ^M'
 
 

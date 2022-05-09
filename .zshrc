@@ -4,9 +4,9 @@ source "$ZDOTDIR/funcs.zsh"
 
 
 # SOURCE custom ZSH
+zsh_add_dir "$ZDOTDIR/lib"
 zsh_add_dir "$ZDOTDIR/alias"
 zsh_add_dir "$ZDOTDIR/custom-alias"
-zsh_add_dir "$ZDOTDIR/lib"
 
 
 # HAS TO BE LOADED AFTER ALL OTHER THINGS THAT MODIFY COMPLETIONS

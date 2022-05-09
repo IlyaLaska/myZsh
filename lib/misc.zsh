@@ -14,6 +14,7 @@ export EDITOR="nvim"
 export TERMINAL="alacritty"
 export VISUAL='nvim'
 # export BROWSER="brave"
+export PATH="$PATH:~/.local/bin"
 
 
 # Compilation flags
