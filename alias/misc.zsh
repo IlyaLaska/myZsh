@@ -1,5 +1,7 @@
 # MISC COMMANDS
 alias n='nvim'
+alias lv='lvim'
+alias lg='lazygit'
 alias s='sudo'
 alias e='exa -l --icons --group-directories-first --git'
 alias ea='exa -la --icons --group-directories-first --git'

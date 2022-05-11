@@ -5,7 +5,7 @@ alias gcm='git commit'
 
 # PUSH/PULL
 alias gph='git push'
-alias gpu='git push -u origin'
+alias gpuo='git push -u origin'
 alias gpl='git pull'
 
 # MISC
