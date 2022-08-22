@@ -3,6 +3,7 @@ setopt interactivecomments      # recognize comments
 # setopt nomatch                  # do not complain when glob matches nothing
 unsetopt BEEP                   # beeping is annoying
 unsetopt flowcontrol            # disable output flow control via start/stop characters (usually assigned to ^S/^Q)
+setopt autocd                   # change dirs without cd
 # stty stop undef		              # Disable ctrl-s to freeze terminal.
 
 

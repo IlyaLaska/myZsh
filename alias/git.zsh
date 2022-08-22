@@ -11,6 +11,7 @@ alias gpl='git pull'
 # MISC
 alias gs='git status'
 alias gl='git log'
+alias glp='git log --graph --pretty="%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset"'
 alias gbv='git branch -v'
 alias gbvv='git branch -vv'
 alias gm='git merge'

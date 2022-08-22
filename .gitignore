@@ -4,4 +4,5 @@ maybe-useful/
 old/
 custom-alias/
 plugins/
-
+.DS_Store
+.zsh_sessions/
